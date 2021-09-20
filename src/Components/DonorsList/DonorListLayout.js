@@ -2,7 +2,7 @@ import { Divider } from "@mui/material";
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 const DonorListLayout = (props) => {
-  const { _id, name, blood_group, phone, state, zip, city } = props.donor;
+  const {name, blood_group, phone, state, zip, city } = props.donor;
   return (
     <Col>
       <Card>

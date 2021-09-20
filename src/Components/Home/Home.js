@@ -1,7 +1,7 @@
 import React from "react";
 import DonorList from "../DonorsList/DonorList";
 
-const Home = ({ setLoginUser }) => {
+const Home = () => {
   return (
     <>
       <DonorList />

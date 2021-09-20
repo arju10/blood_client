@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Components/Home/Home';
@@ -9,7 +9,7 @@ import DonorForm from './Components/Form/DonorForm/DonorForm';
 import RequestForm from './Components/Form/RequestForm/RequestForm';
 import DonorList from './Components/DonorsList/DonorList';
 function App() {
-  const [ user, setLoginUser] = useState({})
+
   return (
   <>
   <Router>
